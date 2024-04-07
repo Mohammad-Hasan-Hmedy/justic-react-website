@@ -1,0 +1,36 @@
+.main__contact {
+  background: #2d2d34;
+  height: 80vh;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.content {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../assest/lower.jpg);
+  background-position: left;
+  background-size: cover;
+  height: 95%;
+  border-radius: 10px;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 20px;
+}
+.text h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 45px;
+}

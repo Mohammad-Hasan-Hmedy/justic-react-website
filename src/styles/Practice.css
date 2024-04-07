@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main__section {
+  background-color: #37373f;
+  padding: 100px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.text__section {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.text__section h1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.text__section h1 span {
+  color: #b49c73;
+  font-weight: bold;
+}
+
+.text__section p {
+  margin-left: 50px;
+  color: #b2b2b8;
+  line-height: 40px;
+  font-size: 16px;
+  max-width: 80%;
+  text-align: start;
+}
+
+.text__section button {
+  margin-left: -550px;
+}
+
+.counter {
+  margin-top: 100px;
+}
+
+.counter .year {
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 70px;
+  line-height: 90px;
+  font-weight: 100;
+  margin-bottom: 100px;
+  text-align: start;
+}
+
+.counter .year span {
+  color: #b49c73;
+  font-weight: bold;
+}
+
+.counter__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.counter__item {
+  margin-bottom: 20px;
+}
+
+.counters__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 90px;
+  margin-left: 30px;
+}
+
+.counter__container h1 {
+  color: #b49c73;
+  font-size: 80px;
+  font-weight: 100;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.counter__container h4 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: start;
+}
+
+.counter__container p {
+  color: #b2b2b8;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: start;
+}
